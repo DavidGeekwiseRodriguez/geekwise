@@ -10,4 +10,38 @@ box-sizing: border-box;
 position: fixed;
 top: calc(50% - calc(150px / 2));
 left: calc(50% - calc(150px / 2));
+z-index: 10000;
+}
+
+#cat {
+background-color: bisque;
+position: absolute;
+height: 350px;
+width: 350px;
+box-sizing: border-box;
+top: calc(50% - calc(350px / 2));
+left: calc(50% - calc(350px / 2));
+}
+
+h1 {
+font-family: comic;
+text-align: center;
+font-size: 25px;
+padding: 25px;
+}
+
+button {
+position: absolute;
+top: 65%;
+left: 83px;
+}
+
+div {
+background-color: hsla(0, 0%, 0%, 0.5);;
+box-sizing: border-box;
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
 }
