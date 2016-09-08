@@ -1,0 +1,13 @@
+body {
+margin: 0;
+position: absolute;
+}
+
+img {
+height: 150px;
+width: 150px;
+box-sizing: border-box;
+position: fixed;
+top: calc(50% - calc(150px / 2));
+left: calc(50% - calc(150px / 2));
+}
