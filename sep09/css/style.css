@@ -1,0 +1,52 @@
+body {
+background-image: url(../img/background.jpg);
+margin: 0;
+font-family: sans-serif;
+}
+
+header {
+width: 100%;
+padding: 0 15%;
+}
+
+
+h1 {
+display: inline-block;
+letter-spacing: -2px;
+}
+
+h1, ul {
+margin: 0;
+}
+
+h1 img {
+width: 100px;
+}
+
+h1 a {
+text-decoration: none;
+font-size: 45px;
+color: white;
+}
+
+h1 a span {
+color: hsl(190, 61%, 43%);
+}
+
+
+ul {
+display: inline-block;
+}
+
+ul li {
+color: dimgray;
+font-weight: bold;
+display: inline-block;
+}
+
+li {
+}
+
+.active {
+color: hsl(190, 61%, 43%);
+}
