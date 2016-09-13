@@ -1,0 +1,29 @@
+body {
+margin: 0;
+}
+
+div {
+float: left;
+height: 100vh;
+}
+
+div::after {
+clear: both;
+content: "";
+display: block;
+}
+
+.left {
+background-color: bisque;
+width: 25%;
+}
+
+.middle {
+background-color: purple;
+width: 50%;
+}
+
+.right {
+background-color: bisque;
+width: 25%;
+}
