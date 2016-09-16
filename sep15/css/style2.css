@@ -1,0 +1,34 @@
+body {
+font-family: sans-serif;
+}
+
+header {
+display: flex;
+height: 100px;
+text-align: center;
+color: hsl(281, 54%, 67%);
+}
+
+.first img {
+display: flex;
+flex: 2;
+}
+
+.first div h1 {
+display: flex;
+justify-content: flex-start;
+color: hsl(281, 54%, 67%);
+padding: 5px;
+}
+
+.first img:nth-of-type(2) {
+display: flex;
+flex: 1;
+}
+
+.first div h2 {
+display: flex;
+justify-content: flex-start;
+color: hsl(281, 54%, 67%);
+padding: 5px;
+}
