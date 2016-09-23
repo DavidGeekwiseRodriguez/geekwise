@@ -1,0 +1,28 @@
+body {
+margin: 0;
+font-family: sans-serif;
+}
+
+img {
+width: 25%;
+height: auto;
+margin-top: 50px;
+}
+
+.kevin .sec1 hr {
+margin-top: 100px;
+width: 30px;
+}
+
+.kevin .sec1 h2 {
+display: flex;
+justify-content: center;
+}
+
+.sec2 {
+display: flex;
+}
+
+.sec3 {
+display: flex;
+}
