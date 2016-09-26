@@ -3,6 +3,11 @@ margin: 0;
 font-family: sans-serif;
 }
 
+.kevin .sec1 {
+font-size: 30px;
+color: hsl(299, 31%, 52%);
+}
+
 img {
 width: 25%;
 height: auto;
@@ -12,6 +17,7 @@ margin-top: 50px;
 .kevin .sec1 hr {
 margin-top: 100px;
 width: 30px;
+color: hsl(299, 31%, 52%);
 }
 
 .kevin .sec1 h2 {
@@ -25,4 +31,22 @@ display: flex;
 
 .sec3 {
 display: flex;
+}
+
+.kevin .sec2 .a .b img {
+width: 100%;
+}
+
+.kevin .sec3 .a .b img {
+width: 100%;
+}
+
+.kevin .sec2 .a {
+text-align: center;
+color: hsl(299, 31%, 52%);
+}
+
+.kevin .sec3 .a {
+text-align: center;
+color: hsl(299, 31%, 52%);
 }
