@@ -1,0 +1,98 @@
+body {
+margin: 0;
+font-family: sans-serif;
+}
+
+header {
+display: flex;
+}
+
+.top header h1 {
+font-size: 12px;
+margin-left: 20px;
+margin-top: 15px;
+color: white;
+letter-spacing: 5px;
+}
+
+.top header h1:hover {
+color: hsl(219, 61%, 65%);
+}
+
+.top header h1 span:nth-of-type(1):hover {
+background-color: hsl(219, 61%, 65%);
+border-color: hsl(219, 61%, 65%);
+}
+
+.top header nav:hover {
+color: hsl(219, 61%, 65%);
+}
+
+.top header nav {
+letter-spacing: 5px;
+font-size: 12px;
+}
+
+.top header h1 span:nth-of-type(1) {
+color: black;
+border: 2px white solid;
+background-color: white;
+padding: 2px;
+}
+
+.top header nav {
+color: white;
+align-self: center;
+margin-left: auto;
+margin-right: 20px;
+}
+
+.mid1, .mid2, .mid3 {
+display: flex;
+}
+
+.top {
+background-image: url(../imgs/banner.jpg);
+height: 500px;
+}
+
+.top h2 {
+color: white;
+}
+
+.top hr {
+width: 75%;
+height: 3px;
+background-color: white;
+}
+
+.top p {
+font-size: 13px;
+color: white;
+margin-left: 20px;
+display: inline-block;
+width: 30%;
+line-height: 20px;
+}
+
+.top .button {
+height: 40px;
+color: white;
+font-size: 12px;
+letter-spacing: 3px;
+width: 140px;
+display: inline-block;
+}
+
+.top .button span {
+border: 2px solid white;
+padding: 10px;
+}
+
+.top .button:hover {
+color: hsl(219, 61%, 65%);
+}
+
+.top .button span:hover {
+border-color: hsl(219, 61%, 65%);
+}
