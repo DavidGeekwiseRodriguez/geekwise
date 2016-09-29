@@ -13,19 +13,26 @@ margin-left: 20px;
 margin-top: 15px;
 color: white;
 letter-spacing: 5px;
+transition: all .1s ease-out;
 }
 
 .top header h1:hover {
 color: hsl(219, 61%, 65%);
+transition: all .1s ease-in;
+cursor: pointer;
 }
 
 .top header h1 span:nth-of-type(1):hover {
 background-color: hsl(219, 61%, 65%);
 border-color: hsl(219, 61%, 65%);
+transition: all .1s ease-in;
+cursor: pointer;
 }
 
 .top header nav:hover {
 color: hsl(219, 61%, 65%);
+transition: all .1s ease-in;
+cursor: pointer;
 }
 
 .top header nav {
@@ -38,6 +45,7 @@ color: black;
 border: 2px white solid;
 background-color: white;
 padding: 2px;
+transition: all .1s ease-out;
 }
 
 .top header nav {
@@ -45,6 +53,7 @@ color: white;
 align-self: center;
 margin-left: auto;
 margin-right: 20px;
+transition: all .1s ease-out;
 }
 
 .mid1, .mid2, .mid3 {
@@ -52,47 +61,116 @@ display: flex;
 }
 
 .top {
-background-image: url(../imgs/banner.jpg);
+background-image: url(../imgs/template2banner.jpg);
 height: 500px;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.top .top2 {
+margin-top: 150px;
 }
 
 .top h2 {
 color: white;
+margin-left: 157px;
+font-size: 50px;
+margin-bottom: auto;
 }
 
 .top hr {
 width: 75%;
 height: 3px;
 background-color: white;
+margin-top: 25px;
+margin-bottom: 25px;
 }
 
 .top p {
-font-size: 13px;
+font-size: 12px;
 color: white;
-margin-left: 20px;
+margin-left: 158px;
 display: inline-block;
-width: 30%;
+width: 35%;
+letter-spacing: 2px;
 line-height: 20px;
 }
 
 .top .button {
-height: 40px;
 color: white;
 font-size: 12px;
 letter-spacing: 3px;
 width: 140px;
 display: inline-block;
+transition: all .1s ease-out;
 }
 
 .top .button span {
 border: 2px solid white;
 padding: 10px;
+transition: all .1s ease-out;
 }
 
 .top .button:hover {
 color: hsl(219, 61%, 65%);
+transition: all .1s ease-in;
+cursor: pointer;
 }
 
 .top .button span:hover {
 border-color: hsl(219, 61%, 65%);
+transition: all .1s ease-in;
+}
+
+.cta {
+display: flex;
+align-items: center;
+}
+
+.image1, .image2 {
+height: 325px;
+}
+
+.mid1 .image1 {
+background-image: url(../imgs/pic01.jpg);
+background-size: cover;
+width: 40%;
+}
+
+.mid1 .image2 {
+background-image: url(../imgs/pic02.jpg);
+background-size: cover;
+width: 60%;
+}
+
+.mid1 .image1 .tint1 p:nth-of-type(1) {
+font-size: 23px;
+font-weight: bold;
+color: white;
+}
+
+
+.mid2 .image1 {
+background-image: url(../imgs/pic03.jpg);
+background-size: cover;
+width: 60%;
+}
+
+.mid2 .image2 {
+background-image: url(../imgs/pic04.jpg);
+background-size: cover;
+width: 40%;
+}
+
+.mid3 .image1 {
+background-image: url(../imgs/pic05.jpg);
+background-size: cover;
+width: 40%;
+}
+
+.mid3 .image2 {
+background-image: url(../imgs/pic06.jpg);
+background-size: cover;
+width: 60%;
 }
