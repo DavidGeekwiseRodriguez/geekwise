@@ -1,0 +1,139 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+body {
+margin: 0;
+font-family: Roboto, sans-serif;
+}
+
+.top {
+background-image: url(../imgs/home-slider-1-slide-2.jpg);
+background-size: cover;
+height: 653px;
+background-attachment: fixed;
+}
+
+.top header nav img {
+height: 39px;
+width: 229px;
+padding: 50px;
+margin-left: 20px;
+cursor: pointer;
+}
+
+.top header nav ul li {
+display: inline-block;
+color: white;
+margin-right: 35px;
+}
+
+.top header nav ul li:nth-of-type(1) {
+color: hsl(201, 89%, 64%);
+cursor: pointer;
+}
+
+.top header nav ul li:nth-of-type(2), .top header nav ul li:nth-of-type(3), .top header nav ul li:nth-of-type(4), .top header nav ul li:nth-of-type(5) {
+color: white;
+transition: all .2s ease-out;
+cursor: pointer;
+}
+
+.top header nav ul li:nth-of-type(2):hover, .top header nav ul li:nth-of-type(3):hover, .top header nav ul li:nth-of-type(4):hover, .top header nav ul li:nth-of-type(5):hover {
+color: hsl(201, 89%, 64%);
+transition: all .2s ease-in;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-right: 10px;
+font-size: 20px;
+}
+
+.top2 h1 {
+text-align: center;
+font-size: 250px;
+color: white;
+margin:0;
+margin-top: 50px;
+}
+
+.mid1 {
+display: flex;
+}
+
+.mid1 div {
+width: 25%;
+height: 325px;
+background-size: cover;
+}
+
+.mid1 div p {
+font-size: 12px;
+color: white;
+margin-left: 20px;
+margin-top: 20px;
+z-index: 5;
+}
+
+.mid1 .image1 .blue {
+width: 100%;
+height: 325px;
+transition: all .3s ease-out;
+border-radius: 100%;
+}
+
+.mid1 .image1 .blue:hover {
+background-color: hsl(201, 89%, 64%);
+transition: all .3s ease-in;
+border-radius: 0%;
+}
+
+.mid1 .image1 {
+background-image: url(../imgs/home-1-510x550.jpg);
+}
+
+.mid1 .image2 {
+background-image: url(../imgs/home-2-510x550.jpg);
+}
+
+.mid1 .image3 {
+background-image: url(../imgs/home-3-510x550.jpg);
+}
+
+.mid1 .image4 {
+background-image: url(../imgs/home-4-510x550.jpg);
+}
+
+.mid2 {
+display: flex;
+}
+
+.mid2 div {
+width: 25%;
+height: 325px;
+background-size: cover;
+}
+
+.mid2 div p {
+font-size: 12px;
+color: white;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+.mid2 .image5 {
+background-image: url(../imgs/home-5-510x550.jpg);
+}
+
+.mid2 .image6 {
+background-image: url(../imgs/home-6-510x550.jpg);
+}
+
+.mid2 .image7 {
+background-image: url(../imgs/home-7-510x550.jpg);
+}
+
+.mid2 .image8 {
+background-image: url(../imgs/home-8-510x550.jpg);
+}
