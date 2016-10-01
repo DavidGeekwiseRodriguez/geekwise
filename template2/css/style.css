@@ -13,25 +13,25 @@ margin-left: 20px;
 margin-top: 15px;
 color: white;
 letter-spacing: 5px;
-transition: all .1s ease-out;
+transition: all .3s ease-out;
 }
 
 .top header h1:hover {
 color: hsl(219, 61%, 65%);
-transition: all .1s ease-in;
+transition: all .3s ease-in;
 cursor: pointer;
 }
 
 .top header h1 span:nth-of-type(1):hover {
 background-color: hsl(219, 61%, 65%);
 border-color: hsl(219, 61%, 65%);
-transition: all .1s ease-in;
+transition: all .3s ease-in;
 cursor: pointer;
 }
 
 .top header nav:hover {
 color: hsl(219, 61%, 65%);
-transition: all .1s ease-in;
+transition: all .3s ease-in;
 cursor: pointer;
 }
 
@@ -45,7 +45,7 @@ color: black;
 border: 2px white solid;
 background-color: white;
 padding: 2px;
-transition: all .1s ease-out;
+transition: all .3s ease-out;
 }
 
 .top header nav {
@@ -53,7 +53,7 @@ color: white;
 align-self: center;
 margin-left: auto;
 margin-right: 20px;
-transition: all .1s ease-out;
+transition: all .3s ease-out;
 }
 
 .mid1, .mid2, .mid3 {
@@ -103,24 +103,24 @@ font-size: 12px;
 letter-spacing: 3px;
 width: 140px;
 display: inline-block;
-transition: all .1s ease-out;
+transition: all .3s ease-out;
 }
 
 .top .button span {
 border: 2px solid white;
 padding: 10px;
-transition: all .1s ease-out;
+transition: all .3s ease-out;
 }
 
 .top .button:hover {
 color: hsl(219, 61%, 65%);
-transition: all .1s ease-in;
+transition: all .3s ease-in;
 cursor: pointer;
 }
 
 .top .button span:hover {
 border-color: hsl(219, 61%, 65%);
-transition: all .1s ease-in;
+transition: all .3s ease-in;
 }
 
 .cta {
@@ -138,23 +138,49 @@ background-size: cover;
 width: 40%;
 }
 
+.mid1 .image1 .tint1 {
+background-color: hsla(151, 82%, 38%, 0.7);
+height: 325px;
+transition: all .4s ease-out;
+}
+
+.mid1 .image1 .tint1:hover {
+background-color: hsla(128, 79%, 63%, 0.0);
+transition: all .4s ease-in;
+}
+
 .mid1 .image2 {
 background-image: url(../imgs/pic02.jpg);
 background-size: cover;
 width: 60%;
 }
 
-.mid1 .image1 .tint1 p:nth-of-type(1) {
-font-size: 23px;
-font-weight: bold;
-color: white;
+.mid1 .image2 .tint2 {
+background-color: hsla(192, 38%, 52%, 0.7);
+height: 325px;
+transition: all .4s ease-out;
 }
 
+.mid1 .image2 .tint2:hover {
+background-color: hsla(192, 38%, 52%, 0.0);
+transition: all .4s ease-in;
+}
 
 .mid2 .image1 {
 background-image: url(../imgs/pic03.jpg);
 background-size: cover;
 width: 60%;
+}
+
+.mid2 .image1 .tint1 {
+background-color: hsla(273, 33%, 50%, 0.7);
+height: 325px;
+transition: all .4s ease-out;
+}
+
+.mid2 .image1 .tint1:hover {
+background-color: hsla(273, 33%, 50%, 0.0);
+transition: all .4s ease-in;
 }
 
 .mid2 .image2 {
@@ -163,14 +189,47 @@ background-size: cover;
 width: 40%;
 }
 
+.mid2 .image2 .tint2 {
+background-color: hsla(14, 45%, 52%, 0.7);
+height: 325px;
+transition: all .4s ease-out;
+}
+
+.mid2 .image2 .tint2:hover {
+background-color: hsla(14, 45%, 52%, 0.0);
+transition: all .4s ease-out;
+}
+
 .mid3 .image1 {
 background-image: url(../imgs/pic05.jpg);
 background-size: cover;
 width: 40%;
 }
 
+.mid3 .image1 .tint1 {
+background-color: hsla(0, 45%, 50%, 0.7);
+height: 325px;
+transition: all .4s ease-out;
+}
+
+.mid3 .image1 .tint1:hover {
+background-color: hsla(0, 45%, 50%, 0.0);
+transition: all .4s ease-in;
+}
+
 .mid3 .image2 {
 background-image: url(../imgs/pic06.jpg);
 background-size: cover;
 width: 60%;
+}
+
+.mid3 .image2 .tint2 {
+background-color: hsla(238, 57%, 60%, 0.7);
+height: 325px;
+transition: all .4s ease-out;
+}
+
+.mid3 .image2 .tint2:hover {
+background-color: hsla(238, 57%, 60%, 0.0);
+transition: all .4s ease-in;
 }
