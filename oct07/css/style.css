@@ -1,0 +1,140 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+body {
+margin: 0;
+font-family: "Roboto", sans-serif;
+}
+
+header {
+display: flex;
+flex-direction: column;
+background-image: url(../imgs/home-slider-1-slide-2.jpg);
+background-position: center;
+background-size: cover;
+min-height: 400px;
+color: white;
+}
+
+nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+nav h1 {
+background-image: url(../imgs/logo-229x39.png);
+background-repeat: no-repeat;
+color: transparent;
+}
+
+nav h1 a {
+display: block;
+color: transparent;
+width: 229px;
+height: 39px;
+}
+
+nav ul {
+display: inline-flex;
+list-style: none;
+padding: 0;
+margin: 0;
+font-size: 125%;
+}
+
+nav ul ul {
+width: 200px;
+display: none;
+position: absolute;
+top: 100%;
+left: 50%;
+transform: translate3d(-50%, 0, 0);
+background-color: hsla(0, 0%, 0%, 0.8);
+font-size: 100%;
+}
+
+nav ul ul a {
+display: block;
+padding: 20px 100px;
+text-align: center;
+}
+
+nav > ul > li {
+position: relative;
+}
+
+nav > ul > li:hover > ul {
+display: block;
+}
+
+nav > ul > li::after {
+content: "/";
+display: inline-block;
+margin: 0 10px;
+}
+
+nav > ul > li:last-child::after {
+content: none;
+}
+
+nav li a {
+text-decoration: none;
+color: inherit;
+}
+
+/*CAR TITLE*/
+
+header h2 {
+margin: auto;
+font-size: 15vw;
+}
+
+/*SECTION GALLERY*/
+
+#gallery {
+display: flex;
+flex-wrap: wrap;
+}
+
+#gallery > div {
+width: calc(100% / 4);
+height: 28vw;
+overflow: hidden;
+position: relative;
+}
+
+#gallery > div > imgs {
+width: 100%;
+transform: scale(1.25);
+/*transform: translate3d(-50%, -50%, 0);*/
+}
+
+#gallery > div:hover div {
+border-radius: 0%;
+transform: scale(1);
+opacity: 1;
+}
+
+#gallery div div {
+transition: all 350ms ease-out;
+border-radius: 100%;
+transform: scale(.75);
+opacity: 0;
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: hsla(198, 100%, 58%, 1)
+}
+
+/*CAR NEWS*/
+
+#carnews {
+display: flex;
+}
