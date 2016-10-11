@@ -1,0 +1,74 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700';
+
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+#models {
+background-image: url(../imgs/bg-image-1.jpg);
+background-size: cover;
+background-position: center;
+padding: 15vw 5vw 15vw 50%;
+}
+
+h2 {
+text-transform: uppercase;
+}
+
+h2 + hr {
+width: 10vw;
+border: 5px solid hsl(198, 100%, 58%);
+}
+
+hr {
+margin: 0;
+border: none;
+height: 1px;
+border-color: hsl(0, 0%, 100%);
+}
+
+#models ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+#models p {
+display: flex;
+justify-content: space-between;
+margin-bottom: 0;
+}
+
+/*#models span {
+margin-left: auto;
+}*/
+
+progress {
+width: 100%;
+border: none;
+height: 10px;
+}
+
+progress::-moz-progress-bar {
+background-color: hsl(198, 100%, 58%);
+}
+
+#models a {
+color: hsl(198, 100%, 58%);
+text-decoration: none;
+transition: all 250ms ease-in-out;
+align-items: center;
+}
+
+#models a:hover {
+color: black;
+}
+
+#models i {
+margin-left: 10px;
+transition: all 250ms ease-in-out;
+}
+
+#models a:hover i {
+margin-left: 15px;
+}
