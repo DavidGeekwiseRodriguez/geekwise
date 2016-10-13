@@ -48,6 +48,7 @@ form legend span {
 position: relative;
 top: 27px;
 transition: all 250ms ease-in-out;
+align-self: flex-start;
 }
 
 form legend span.placeholder {
