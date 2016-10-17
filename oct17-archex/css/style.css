@@ -1,0 +1,53 @@
+body {
+margin: 0;
+}
+
+#gallery {
+display: flex;
+flex-wrap: wrap;
+}
+
+#gallery > div {
+width: calc(100% / 3);
+position: relative;
+overflow: hidden;
+}
+
+#gallery img {
+width: 100%;
+float: left;
+transition: transform 400ms ease-in-out;
+}
+
+#gallery div div {
+position: absolute;
+top: 5vw;
+right: 2.5vw;
+bottom: 5vw;
+left: 2.5vw;
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+transition: all 400ms ease-in-out;
+}
+
+#gallery > div:hover img {
+transform: scale(1.25);
+}
+
+#gallery > div:hover div {
+color: white;
+background-color: hsl(0, 0%, 9%)
+}
+
+/*MOBILE*/
+
+@media screen and (max-width: 600px){
+  #gallery > div {
+    width: calc(100% / 2);
+  }
+
+
+}

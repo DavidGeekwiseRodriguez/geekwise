@@ -12,15 +12,63 @@ justify-content: space-around;
 
 #first, #second, #third {
 background-color: hsl(189, 69%, 50%);
-width: 31vw;
-height: 100vh;
+width: 30.5vw;
+height: 120vh;
 }
 
+p {
+color: white;
+}
 
 h1 {
 color: white;
 }
 
-p {
-color: white;
+img {
+padding: 30px;
+}
+
+section #first h1 {
+font-size: 3em;
+margin-top: auto;
+margin-left: 30px;
+}
+
+section #second h1 {
+font-size: 3em;
+margin-top: auto;
+margin-left: 30px;
+}
+
+section #third h1 {
+font-size: 3em;
+margin-top: auto;
+margin-left: 30px;
+}
+
+section #first .title {
+font-size: 1.25em;
+font-weight: bolder;
+letter-spacing: 1px;
+margin-left: 30px;
+}
+
+section #second .title2 {
+font-size: 1.25em;
+font-weight: bolder;
+letter-spacing: 1px;
+margin-left: 30px;
+}
+
+section #third .title3 {
+font-size: 1.25em;
+font-weight: bolder;
+letter-spacing: 1px;
+margin-left: 30px;
+}
+
+.desc, .desc2, .desc3 {
+display: flex;
+font-size: .9em;
+margin-left: 30px;
 }
