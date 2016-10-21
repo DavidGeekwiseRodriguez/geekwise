@@ -24,10 +24,94 @@ margin: 0;
 background-color: #660000;
 }
 
-#banner div .logo {
-
+h1 {
+font-family: 'BrushScript', sans-serif;
+color: white;
+text-shadow: -2px 0 #6E0E0D, 0 2px #6E0E0D, 2px 0 #6E0E0D, 0 -2px #6E0E0D;
 }
 
-li {
+#banner div {
+display: flex;
+justify-content: center;
+}
 
+#banner div .logo {
+font-family: 'Fraktur', sans-serif;
+align-self: center;
+color: #D2A800;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+font-size: 2em;
+text-align: center;
+}
+
+#banner div img {
+border: 3px black solid;
+}
+
+.logo {
+background-color: #FEFFEF;
+border: 3px black solid;
+}
+
+#homebody, #historybody {
+display: flex;
+justify-content: center;
+display: block;
+background-color: #FEFFEF;
+flex: 3;
+}
+
+#homebody nav ul, #historybody nav ul {
+display: flex;
+justify-content: space-around;
+border: 3px dotted #B5B5AA;
+border-left: none;
+border-right: none;
+}
+
+#homebody nav ul li, #historybody nav ul li {
+list-style-type: none;
+}
+
+#homebody nav ul li a, #historybody nav ul li a {
+text-decoration: none;
+font-family: 'BrushScript', sans-serif;
+font-size: 1.3em;
+color: white;
+text-shadow: -2px 0 #6E0E0D, 0 2px #6E0E0D, 2px 0 #6E0E0D, 0 -2px #6E0E0D;
+}
+
+aside {
+display: flex;
+flex: 1;
+}
+
+aside .hours div {
+display: flex;
+justify-content: space-between;
+}
+
+aside .hours2 {
+display: flex;
+justify-content: space-between;
+}
+
+aside .hours3 {
+display: flex;
+justify-content: space-between;
+}
+
+/*HISTORY*/
+
+#historybody .history img {
+float: right;
+}
+
+#historybody .history img:nth-of-type(2) {
+float: left;
+}
+
+#historybody .bttp h1 a {
+text-decoration: none;
+color: white;
 }
