@@ -1,0 +1,38 @@
+body {
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+grid-template-rows: repeat(5, 100px);
+grid-template-areas:
+    '. . head head head . .'
+    '. . . main main . .'
+    'aside . . main main . .'
+    'aside foot foot foot foot foot foot';
+grid-gap: 10px;
+}
+
+.a {
+grid-area: head;
+background-color: skyblue;
+/*grid-column: span 2;*/
+}
+
+.b {
+grid-area: aside;
+background-color: pink;
+/*grid-column: 1 / span 3;
+grid-row: 2 / span 3;*/
+}
+
+.c {
+grid-area: main;
+background-color: cyan;
+/*grid-column: 2;
+grid-row: 3;*/
+}
+
+.d {
+grid-area: foot;
+background-color: maroon;
+/*grid-column: 1;
+grid-row: 1;*/
+}
