@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Brush Script Std';
+  src: url('../fonts/BrushScriptStd.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/BrushScriptStd.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/BrushScriptStd.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/BrushScriptStd.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/BrushScriptStd.svg#eb21f6604ba28d5573abad1c01255830') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Fraktur BT';
+  src: url('../fonts/Fraktur-BT-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Fraktur-BT-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Fraktur-BT-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Fraktur-BT-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Fraktur-BT-Regular.svg#f78369fb7f540f355d128fc492e4218d') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
