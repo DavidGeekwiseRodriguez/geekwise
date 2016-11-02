@@ -1,0 +1,45 @@
+html {
+background-image: url(../img/headbg.jpg);
+background-position: center top;
+background-repeat: no-repeat, repeat-x;
+background-color: black;
+}
+
+body {
+color: black;
+}
+
+.container {
+width: 800px;
+margin: 0 auto;
+}
+
+header {
+
+}
+
+section {
+width: 60%;
+float: left;
+background-image: url(../img/leftbg.jpg);
+background-position: right top;
+background-repeat: no-repeat;
+}
+
+aside {
+width: 40%;
+float: right;
+background-image: url(../img/rightbg.png);
+background-position: left top;
+background-repeat: no-repeat, repeat-x;
+}
+
+footer {
+background-color: hsl(9, 83%, 9%);
+}
+
+main::after {
+content: '';
+display: block;
+clear: both;
+}
