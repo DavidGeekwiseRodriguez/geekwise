@@ -1,21 +1,47 @@
 body {
 margin: 0;
+background-image: linear-gradient(
+  #800B02,
+  hsl(0, 0%, 5%) 14%
+  );
 }
 
 header {
 background-image: url(../img/headbg.jpg);
 background-size: cover;
+width: 60%;
+margin: 0 auto;
 }
 
 header nav {
 display: flex;
-justify-content: flex-end;
-justify-content: space-around;
+align-items: flex-end;
+justify-content: center;
+}
+
+header nav img {
+width: 30%;
+margin: 0;
 }
 
 header nav ul {
-display: inline-flex;
+display: flex;
 list-style: none;
+}
+
+header nav ul li {
+background-image: url(../img/menubg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+margin: 0 2px;
+}
+
+header nav ul .active, header nav ul li:hover {
+background-image: url(../img/menubghover.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
 }
 
 header nav ul li a {
@@ -23,16 +49,22 @@ text-decoration: none;
 color: #B86A21;
 }
 
-header nav ul .menubghover {
-background-image: url(../img/menubghover.jpg);
-}
-
-header nav ul .menubg {
-background-image: url(../img/menubg.jpg);
-}
-
 main {
+display: flex;
+width: 60%;
+margin: 15px auto;
+}
+
+section {
 background-image: url(../img/leftbg.jpg);
+background-position: right;
+background-repeat: no-repeat;
+background-size: cover;
+flex: 2;
+}
+
+section div p {
+font-size: .9em;
 }
 
 h1 {
@@ -53,11 +85,23 @@ color: #B86A21;
 
 .bigt {
 color: #B86A21;
+font-size: 1.1em;
 }
 
 aside {
 background-image: url(../img/rightbg.png);
 background-size: cover;
+background-repeat: no-repeat;
+background-position: left;
+flex: 1;
+}
+
+aside div p {
+font-size: .9em;
+}
+
+aside nav ul {
+margin: 0;
 }
 
 aside nav ul li {
