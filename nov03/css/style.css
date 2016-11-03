@@ -1,0 +1,69 @@
+html {
+background-image: url(../img/headbg.jpg), url(../img/bobybg.jpg);
+background-position: center top;
+background-repeat: no-repeat, repeat-x;
+background-color: black;
+}
+
+body{
+margin: 0;
+color: white;
+}
+
+.container {
+width: 800px;
+margin: 0 auto;
+}
+
+section {
+background-image: url(../img/leftbg.jpg), url(../img/mainbg.jpg);
+background-position: right top;
+background-repeat: no-repeat, repeat-x;
+width: 64%;
+float: left;
+}
+
+aside {
+background-image: url(../img/rightbg.png), url(../img/mainbg.jpg);
+background-repeat: no-repeat, repeat-x;
+background-position: left top;
+width: 34%;
+float: right;
+}
+
+main::after {
+display: block;
+content: '';
+clear: both;
+}
+
+#mega {
+background-color: hsl(9, 83%, 9%);
+}
+
+#mega .container {
+display: flex;
+justify-content: space-around;
+padding: 30px 0;
+position: relative;
+}
+
+#mega .container div {
+width: calc(75% / 3);
+}
+
+body > :first-child {
+position: relative;
+}
+
+body > :first-child .pumpkin {
+position: absolute;
+bottom: 0;
+right: 0;
+}
+
+#mega .container .pumpkin {
+position: absolute;
+top: 0;
+right: -12px;
+}
