@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
+
+body {
+margin: 0;
+}
+
+section {
+display: flex;
+}
+
+.first {
+display: flex;
+align-items: flex-end;
+justify-content: center;
+background-color: hsl(0, 0%, 9%);
+width: calc(100% / 3);
+height: 100vh;
+border-right: 1px solid #444444;
+}
+
+.second {
+display: flex;
+align-items: flex-end;
+justify-content: center;
+background-color: hsl(0, 0%, 9%);
+width: calc(100% / 3);
+height: 100vh;
+border-left: 1px solid #444444;
+border-right: 1px solid #444444;
+}
+
+.third {
+display: flex;
+align-items: flex-end;
+justify-content: center;
+background-color: hsl(0, 0%, 9%);
+width: calc(100% / 3);
+height: 100vh;
+border-left: 1px solid #444444;
+}
+
+h1 {
+font-family: 'Amatic SC', sans-serif;
+padding: 5px;
+font-size: 3em;
+border: 3px solid white;
+color: white;
+}
