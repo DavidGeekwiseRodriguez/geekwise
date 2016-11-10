@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
 
 body {
+padding: 0;
 margin: 0;
+background-color: hsl(0, 0%, 9%);
 }
 
 section {
@@ -15,7 +17,7 @@ justify-content: center;
 background-color: hsl(0, 0%, 9%);
 width: calc(100% / 3);
 height: 100vh;
-border-right: 1px solid #444444;
+border-right: 1px solid hsla(0, 0%, 20%, 0.1);
 }
 
 .second {
@@ -25,8 +27,8 @@ justify-content: center;
 background-color: hsl(0, 0%, 9%);
 width: calc(100% / 3);
 height: 100vh;
-border-left: 1px solid #444444;
-border-right: 1px solid #444444;
+border-left: 1px solid hsla(0, 0%, 20%, 0.1);
+border-right: 1px solid hsla(0, 0%, 20%, 0.1);
 }
 
 .third {
@@ -36,13 +38,66 @@ justify-content: center;
 background-color: hsl(0, 0%, 9%);
 width: calc(100% / 3);
 height: 100vh;
-border-left: 1px solid #444444;
+border-left: 1px solid hsla(0, 0%, 20%, 0.1);
 }
 
 h1 {
 font-family: 'Amatic SC', sans-serif;
 padding: 5px;
-font-size: 3em;
+font-size: 2em;
 border: 3px solid white;
 color: white;
+text-decoration: none;
+}
+
+a {
+font-family: 'Amatic SC', sans-serif;
+padding: 5px;
+font-size: 2em;
+border: 3px solid white;
+color: white;
+text-decoration: none;
+}
+
+.first:hover {
+background-image: url(../img/aboutme.jpg);
+background-position: center;
+background-size: cover;
+transition: all 800ms ease-in;
+}
+
+.second:hover {
+background-image: url(../img/works.PNG);
+background-position: center;
+background-size: cover;
+transition: all 800ms ease-in;
+}
+
+.hover:hover {
+border: 3px solid black;
+color: black;
+}
+
+.third:hover {
+background-image: url(../img/contact.jpg);
+background-position: center;
+background-size: cover;
+}
+
+/*ABOUT ME */
+
+.aboutme {
+font-family: 'Amatic SC', sans-serif;
+padding: 5px;
+font-size: 2em;
+border: 3px solid white;
+color: white;
+text-decoration: none;
+width: 100%;
+}
+
+p {
+display: flex;
+color: white;
+width: 100%;
 }
