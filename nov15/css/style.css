@@ -1,0 +1,14 @@
+body {
+margin: 0;
+}
+
+header {
+background-image: url(../imgs/banner.jpg);
+background-repeat: no-repeat;
+background-size: contain;
+background-attachment: fixed;
+}
+
+header div {
+
+}
