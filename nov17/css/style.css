@@ -21,6 +21,7 @@ li > a {
 text-decoration: none;
 color: #6E6E6E;
 }
+
 main section:nth-of-type(1) {
 background-color: #FFFFFF;
 border-radius: 10px;
