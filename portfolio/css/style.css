@@ -6,6 +6,16 @@ margin: 0;
 background-color: hsl(0, 0%, 9%);
 }
 
+#video {
+height: 100vh;
+overflow: hidden;
+}
+
+video {
+height: 100%;
+width: 100%;
+}
+
 section {
 display: flex;
 }
@@ -54,9 +64,9 @@ a {
 font-family: 'Amatic SC', sans-serif;
 padding: 5px;
 font-size: 2em;
-border: 3px solid white;
 color: white;
 text-decoration: none;
+transition: all 250ms ease-out;
 }
 
 .first:hover {
@@ -76,6 +86,7 @@ transition: all 800ms ease-in;
 .hover:hover {
 border: 3px solid black;
 color: black;
+transition: all 200ms ease-in;
 }
 
 .third:hover {
@@ -84,20 +95,18 @@ background-position: center;
 background-size: cover;
 }
 
-/*ABOUT ME */
+@media screen and (max-width: 800px) {
+  #video {
+    height: 100vh;
+    overflow: hidden;
+  }
 
-.aboutme {
-font-family: 'Amatic SC', sans-serif;
-padding: 5px;
-font-size: 2em;
-border: 3px solid white;
-color: white;
-text-decoration: none;
-width: 100%;
+  video {
+    height: 100%;
+    width: 100%;
+  }
+
+  section {
+    display: block;
 }
-
-p {
-display: flex;
-color: white;
-width: 100%;
 }
