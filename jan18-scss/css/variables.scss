@@ -1,0 +1,25 @@
+$key-color: black;
+$tertiary: slategray;
+
+// // headline styles
+// $hd-font: sans-serif;
+// $hd-size: 60px;
+// $hd-color: hsl(281, 30%, 80%);
+
+// // button styles
+// $btn-color: hsl(300, 45%, 50%);
+// $btn-lite: hsl(300, 45%, 60%);
+// $btn-dark: hsl(300, 45%, 40%);
+
+// rainbow colors
+$adj-red: adjust-hue( red, 40deg );
+$adj-orange: adjust-hue( orange, 25deg );
+$inv-yellow: invert( yellow );
+$sat-green: desaturate( green, 30% );
+$comp-blue: complement( blue );
+$gray-indigo: grayscale( indigo );
+$dark-violet: darken( violet, 60% );
+
+// @each
+$colors: $adj-red $adj-orange $inv-yellow $sat-green $comp-blue $gray-indigo $dark-violet;
+$i: 1;
