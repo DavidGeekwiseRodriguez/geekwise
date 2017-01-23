@@ -1,0 +1,48 @@
+@import '_imports';
+
+body {
+font-family: sans-serif;
+}
+
+h1 {
+color: $primary-color;
+@extend %border-style;
+}
+
+h2 {
+font-family: Raleway;
+}
+
+a {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.btn {
+display: inline-block;
+background-color: pink;
+padding: 10px;
+// @extend %border-syle;
+@include border-style(green);
+}
+
+.btn:hover {
+text-decoration: none;
+}
+
+.btn:last-of-type {
+background-color: pink;
+}
+
+ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+li {
+@include d-calc(7);
+}
