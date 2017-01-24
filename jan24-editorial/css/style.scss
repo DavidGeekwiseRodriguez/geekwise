@@ -1,0 +1,55 @@
+@import '_imports';
+
+body {
+background-color: #fafafa;
+}
+
+header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 5px solid $purple;
+font-family: $robotoslab;
+
+  h3 a {
+    color: $lightgray;
+    text-decoration: none;
+  }
+
+  span {
+    color: black;
+    font-weight: bold;
+  }
+
+  .social a {
+    color: $lightgray;
+  }
+}
+
+.first {
+display: flex;
+
+  h1 {
+    font-family: $robotoslab;
+    color: $darkgray;
+    font-size: 43px;
+  }
+
+  p {
+    color: $lightgray;
+  }
+}
+
+.second {
+display: flex;
+
+  h2 {
+    font-family: $robotoslab;
+    color: $darkgray;
+    font-size: 26px;
+  }
+
+  p {
+    color: $lightgray;
+  }
+}
