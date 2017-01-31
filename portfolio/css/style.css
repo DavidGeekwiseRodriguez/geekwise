@@ -70,14 +70,14 @@ transition: all 250ms ease-out;
 }
 
 .first:hover {
-background-image: url(../img/aboutme.jpg);
+background-image: url(img/aboutme.jpg);
 background-position: center;
 background-size: cover;
 transition: all 800ms ease-in;
 }
 
 .second:hover {
-background-image: url(../img/works.PNG);
+background-image: url(img/works.PNG);
 background-position: center;
 background-size: cover;
 transition: all 800ms ease-in;
@@ -90,7 +90,7 @@ transition: all 200ms ease-in;
 }
 
 .third:hover {
-background-image: url(../img/contact.jpg);
+background-image: url(img/contact.jpg);
 background-position: center;
 background-size: cover;
 }
