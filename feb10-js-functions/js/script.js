@@ -47,7 +47,7 @@ function alertUserName(){
 
 
 var extBtn = document.getElementById('external');
-var content = document.getElementById('content')
+var content = document.getElementById('content');
 var delBtn = document.getElementById('deleter');
 
 extBtn.addEventListener('click', function(){
