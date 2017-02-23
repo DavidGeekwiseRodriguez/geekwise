@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+@font-face {
+  font-family: 'Shabby';
+  src: url('../fonts/Anothershabby_trial.ttf');
+}
+
+/*body {
+  margin: 0;
+}
+
+nav {
+  background-color: #6441A4;
+  padding: 15px;
+  font-family: 'Shabby';
+}
+
+nav #contact {
+  margin-left: 50px;
+}*/
+
+body {
+  margin: 0;
+  font-weight: 100;
+  line-height: 1.25;
+  font-family: 'Oswald';
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  text-align: center;
+  font-size: 1.25em;
+  margin-bottom: 50px;
+}
+
+a {
+  color: hsl(0, 0%, 95%);
+  text-decoration: none;
+  font-family: 'Shabby';
+  font-size: 25px;
+}
+
+nav {
+  background-color: #6441A4;
+  padding: 25px 5%;
+}
+
+main {
+  padding: 50px 5%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: inherit;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+label span {
+  flex: 1;
+  text-align: right;
+  padding-right: 10px;
+}
+
+label input, label textarea {
+  flex: 4;
+}
+
+input, textarea {
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+label.chk span:first-child, div span:first-child {
+  flex: 1;
+  padding: 0;
+}
+
+label.chk span:last-child, div span:last-child {
+  padding: 0;
+  flex: 4;
+  text-align: left;
+}
+
+div input[type="submit"] {
+  flex: 4;
+  align-self: flex-start;
+}
