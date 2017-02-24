@@ -46,6 +46,7 @@ a {
 }
 
 nav {
+  display: flex;
   background-color: #6441A4;
   padding: 25px 5%;
 }
@@ -54,12 +55,25 @@ main {
   padding: 50px 5%;
 }
 
-form {
+/* Login Form Styles */
+form#loginForm {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+form#loginForm input {
+  max-width: 100px;
+  margin-left: 5px;
+}
+
+/* Contact Form Styles */
+form#contactForm {
   display: flex;
   flex-direction: column;
 }
 
-label {
+label, div {
   display: inherit;
   align-items: center;
   margin-bottom: 10px;
@@ -96,8 +110,8 @@ label.chk span:last-child, div span:last-child {
   flex: 4;
   text-align: left;
 }
-
+/*
 div input[type="submit"] {
   flex: 4;
   align-self: flex-start;
-}
+}*/
