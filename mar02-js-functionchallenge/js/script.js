@@ -12,7 +12,7 @@ content.appendChild(p).textContent = 'doesnt matter';
 // ANCHOR
 var anc = document.createElement('a');
 content.appendChild(anc).textContent = 'this be the anchor arr';
-// anc.id = 'test'; .id adds and id
+// anc.id = 'test'; .id adds an id
 anc.href = 'https://google.com';
 anc.className = 'test2'; // .className adds a class
 anc.target = '_blank'; // .target opens a link in a new tab
@@ -46,7 +46,7 @@ form.appendChild(inputLast);
 form.appendChild(inputEmail);
 form.appendChild(inputPass);
 form.appendChild(inputNum);
-form.appendChild(inputSub);
+form.appendChild(inputSub)
 // ATTRIBUTES
 inputSub.type = 'submit';
 inputFirst.type = 'text';
