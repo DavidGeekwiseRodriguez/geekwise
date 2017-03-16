@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 9%);
+}
+
+header {
+  padding: 10px;
+  font-family: 'Questrial', sans-serif;
+  text-transform: lowercase;
+}
+
+nav {
+  justify-content: center;
+  padding: 0 37vw;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-top: 300px;
+  transition: all 350ms ease;
+}
+
+header ul li, header ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: hsl(0, 0%, 79%);
+  transition: all 350ms ease;
+}

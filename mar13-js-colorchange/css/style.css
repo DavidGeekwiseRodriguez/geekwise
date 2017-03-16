@@ -1,0 +1,55 @@
+header {
+  height: 500px;
+  background-color: pink;
+  background-image: url(../img/flatfenderbluejeep1.png);
+  background-position: center;
+  background-size: cover;
+  transition: all 500ms ease-in;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+nav > ul {
+  display: flex;
+  background-color: lightgray;
+}
+
+nav > ul > li {
+  position: relative;
+  transition: all 250ms ease-in;
+}
+
+nav > ul > li.hovering {
+  background-color: beige;
+}
+
+nav a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: inherit;
+}
+
+nav > ul > li > a {
+  display: inline-block;
+}
+
+nav > ul > li.hovering ul {
+  top: 100%;
+}
+
+nav > ul > li ul {
+  position: absolute;
+  top: -1000%;
+  transition: all 250ms ease-out;
+}
+
+nav ul ul {
+  width: 200%;
+  background-color: lightgray;
+}
