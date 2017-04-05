@@ -1,5 +1,5 @@
 (function(){
-    getReq('env.json', init)
+    getReq('env.json', setVars)
 }())
 
 function getReq(url, callback){
@@ -17,7 +17,7 @@ function getReq(url, callback){
 
 var myVars;
 
-function init(data){
+function setVars(data){
     myVars = envVars();
     myVars.set_root_url(data.root_url);
     myVars.set_img_url(data.img_url);
