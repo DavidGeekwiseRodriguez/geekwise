@@ -31,6 +31,23 @@ function envVars(){
         set_img_url: function(data){
             img_url = data;
         },
-        
+        set_api_key: function(data){
+            api_key = data;
+        },
+        set_access_token: function(data){
+            access_token = data;
+        },
+        get_root_url: function(data){
+            return root_url;
+        },
+        get_img_url: function(data){
+            return img_url;
+        },
+        get_api_key: function(data){
+            return api_key;
+        },
+        get_access_token: function(data){
+            return access_token;
+        }
     }
 }
