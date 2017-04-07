@@ -1,5 +1,5 @@
 (function(){
-    getReq('env.json', setVars)
+    getReq('env.json', setVars);
 }())
 
 function getReq(url, callback){
@@ -7,7 +7,7 @@ function getReq(url, callback){
     req.open('GET', url);
     req.onload = function(){
         if(req.readyState === 4 && req.status === 200){
-            callback( JSON.parse(req.responseText) )
+            callback( JSON.parse(req.responseText) );
         }else{
             console.log('error', req.statusText);
         }
@@ -24,19 +24,17 @@ function setVars(data){
     myVars.set_api_key(data.api_key);
     myVars.set_access_token(data.access_token);
 
-    var url = myVars.get_root_url()+'search/movie?api_key='+myVars.get_api_key()+'&language=en-US&page=1&query=pokemon';
-
-    getReq(url);
+    var url = myVars.get_root_url()+'search/movie?api_key='+myVars.get_api_key()+'&language=en-US&page=1&query=Jurassic';
 }
 
-function envVars(){
+function envVars(data){
     var root_url, img_url, api_key, access_token;
     return {
         set_root_url: function(data){
             root_url = data;
         },
         set_img_url: function(data){
-            img_url = data;
+            root_url = data;
         },
         set_api_key: function(data){
             api_key = data;
